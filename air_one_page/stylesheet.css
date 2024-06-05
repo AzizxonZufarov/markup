@@ -1,0 +1,240 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.clear{
+	clear: both;
+	
+	height: 50px;
+}
+.cont{
+	background: url('images/1920x1080/01.jpg')center;
+	margin: auto;
+	opacity: 1;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+
+.header{
+	height: 100px;
+}
+
+.header .container{
+	height: 100px;	
+}
+
+
+.logo{
+	background-image: url('images/logo-dark.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 50px;
+}
+
+.menu{
+	height: 50px;
+	font-size: 14px;
+	font-size: 16px;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+	margin: auto;
+}
+
+.list{
+	list-style: none;
+
+}
+
+.list li{
+	display: inline;
+	margin-right: 15px;
+	color: white;
+	float: right;
+}
+
+.text{
+	color: white;
+	text-align: center;
+
+}
+
+.latest .text2{
+	text-align: center;	
+}
+
+.latest{
+	margin-top: 50px;
+	height: 400px;
+	text-align: left;
+}
+
+.latest .container{
+	height: 100px;
+	margin: auto;
+}
+
+.latest .one{
+	width: auto;
+	height: 240px;;
+	background-image: url('images/970x647/02.jpg');
+	background-size: cover;
+}
+
+.latest .two{
+	width: auto;
+	height: 240px;;
+	background-image: url('images/970x647/01.jpg');
+	background-size: cover;
+}
+
+.latest .three{
+	width: auto;
+	height: 240px;;
+	background-image: url('images/970x647/03.jpg');
+	background-size: cover;
+}
+
+.keyboard .left{
+	background-image: url('images/970x647/01.jpg'); 
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.keyboard .right{
+	background-image: url('images/970x647/03.jpg'); 
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Six{
+	height: 100px;
+	font-size: 18px;
+	}
+
+.Six .one{
+	height: 200px;
+}
+
+.Six .two{
+	background-color: #17bed2;
+	color: wheat;
+	height: 200px;
+}
+.Six .three{
+	height: 200px;
+}
+.Six .four{
+	height: 200px;
+}
+.Six .five{
+	height: 200px;
+}
+.Six .six{
+	height: 200px;
+}
+
+.phone{
+	background-image: url('images/1920x1080/02.jpg');
+	background-size: cover;
+	height: 400px;
+	opacity: 1;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 100px;
+}
+
+.gall{
+	background-color: aqua;
+	height: 100px;
+}
+.gall .one{
+	background-image: url('images/800x400/01.jpg'); 
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.gall .two{
+	background-image: url('images/397x400/01.jpg'); 
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.gall .three{
+	background-image: url('images/970x647/01.jpg'); 
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.gall .four{
+	background-image: url('images/970x647/02.jpg'); 
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.gall .five{
+	background-image: url('images/970x647/03.jpg'); 
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.prices{
+	height: 600px;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: left;
+}
+
+.prices .blockone{
+	border: 1px solid grey;
+	box-sizing: border-box;
+}
+.prices .blocktwo{
+	border: 1px solid grey;
+	box-sizing: border-box;
+}
+.prices .blockthree{
+	border: 1px solid grey;
+	box-sizing: border-box;
+}
+.prices ul{
+	list-style: disc;
+	padding-left: 25px;
+}
+
+
+.prices h{
+	font-size: 24px;
+}
+
+.prices ul li{
+	font-size: 16px;
+}
+
+
+.btmbarmenu{
+	height: 200px;
+	font-size: 20px;
+}
+
+.btmbarmenu ul{
+	list-style: none;
+}
+.btmbarmenu ul li:hover{
+	cursor: pointer;
+	color: coral;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,610 @@
+ 
+ 
+ *{
+ 	
+ margin:0;
+ padding:0	
+}  
+ .wrap{
+	
+	width: 1100px;
+	height: 100px;
+	margin: auto;
+	position: relative;
+	top: 150px
+	
+}
+	
+	body{
+		background: #313B45;
+		
+		
+	}
+   .logo{
+   width: 439px;
+   height: 138px;
+   	margin: auto;
+   background: url('images/logo.png');
+   margin-bottom: 50px
+   }
+   
+    .navbar{
+	width: 700px;
+	height: 100px;
+	position: relative;
+    margin: auto;
+
+
+}
+.navbar .active{
+    color: black;
+    background-color: white;   
+}
+
+
+    .navbar ul{
+			
+	list-style: none;
+        
+	position: relative;
+	left:110px;
+	top:25px;
+	font-size: 20px;
+		}
+		
+    	.navbar li{
+			
+
+			float: left;
+			margin: 10px;
+			left: 25px;
+			
+		}
+		
+    	.navbar a{
+						    padding: 15px;
+			width: 75px;
+			height: 30px;
+			display: block;
+			text-align: center;
+			color: #ffffff;
+			text-decoration: none;
+
+		}
+		.navbar a:hover{
+		
+		background: #ffffff;
+		color: #000000;
+		}	
+ 
+		
+		.gall{
+			width: 1100px;
+			height: 950px;
+
+		}
+		
+		.gall img{
+		width:300px;
+		height: 400px;
+		list-style: none;
+		float: left;
+		position: relative;
+		margin-left: 50px;
+		margin-top: 50px;
+		}
+		
+
+.line1{
+    width: 1000px;
+    height: 1px;
+    background-color: white;
+    margin: auto;
+
+    
+    
+}
+
+.line2{
+    width: 1100px;
+    height: 1px;
+    background-color: white;
+    margin: auto;
+
+    
+}
+
+
+
+
+    .hometext{
+    		width:1100px;
+		    height: 500px;
+        font-size: 15px;
+        color: lightgrey;
+        position: relative;
+        float: left;
+
+        
+}
+    
+  .hometext h1{
+            font-size: 30px;
+      
+}
+  .hometext p{
+            padding-top: 20px;
+}
+.whyus{
+            width:300px;
+		    height: 500px;
+            float: left;
+            margin-left: 50px;
+            padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.whoweare{
+            width:300px;
+		    height: 500px;
+            float: left;
+                margin-left: 50px;
+                padding: 20px;
+        box-sizing: border-box; 
+
+}
+.whatwedo{
+            width:300px;
+		    height: 500px;
+            float: left;
+            margin-left: 50px;
+            padding: 20px;
+            box-sizing: border-box;
+       
+}
+		
+
+.bottominf{
+    
+    width: 1100px;
+    height: 150px;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+   float: left;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+
+}
+
+.phone{
+    width: 300px;
+    height: 30px;
+       text-align: center;
+    color: grey;
+    font-size: 22px;
+    position: relative;
+    top: 20px;    margin: auto;
+    box-sizing: border-box;  
+    
+}
+
+
+.messengers{
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    position: relative;   
+    top: 20px;
+    box-sizing: border-box;
+    padding: 5px;    text-align: center;
+}
+
+
+.messengers a{
+    width: 40px;
+    height: 40px;   
+    border-radius: 50%;
+    display: inline-block;
+    background-color: yellow;
+    border: 2px solid;
+    border-color: yellow;    position: relative;  
+    
+}
+
+.messengers img{
+    background-size: cover;
+}
+.messengers a:hover{
+    background-color: #283038;
+    
+}
+
+.policy{
+    width: 300px;
+    height: 30px;
+       text-align: center;
+    color: grey;
+    font-size: 22px;
+    position: relative;
+    top: 20px;    margin: auto;
+    box-sizing: border-box;   
+
+}
+
+.policy a:hover{
+color: yellow;
+    
+}
+
+.policy a{
+    color:grey 
+}
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #283038;
+    color: lightgray;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    float: left;
+}
+.footer p{
+    font-size: 20px;
+    color: grey;
+    position: relative;
+    top: 20px;
+}
+.footer .terms:hover{
+  color: yellow;  
+}
+.footer a{
+    color: aliceblue;
+}
+
+
+.girl{
+ 
+            width: 1100px;
+            height: 300px;
+            margin: auto;
+      background: url('images/1.jpg');
+    position: relative;
+    margin-top: 50px;
+}
+		  
+.article{
+    width: 1100px;
+    background-color: #283038;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+.article h,h1,h2,h3,h4{
+    color: white;
+    font-size: 24px;
+}
+.article h1{
+text-align: center;
+}
+
+
+ 
+.blog1, .blog2, .blog3{
+    width: 1100px;
+    height: 300px;
+    background-color: #283038;
+    margin-top: 50px;
+}
+
+
+
+.blogimg1 {
+       width: 550px;
+    height: 300px;
+    float: left;
+    background-image: url(images/11.jpg);
+background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.blogimg2 {
+    width: 550px;
+    height: 300px;
+    float: left;
+    background-image: url(images/15.jpg);
+   background-size: contain; 
+        background-repeat: no-repeat;
+}
+
+.blogimg3 {
+    width: 550px;
+    height: 300px;
+    float: left;
+    background-image: url(images/13.jpg);
+   background-size: contain; 
+        background-repeat: no-repeat;
+}
+
+.blogtext1, .blogtext2, .blogtext3{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    color: antiquewhite;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.blog1 a:hover{
+    color: yellow;
+    
+}
+
+.blog2 a:hover{
+    color: yellow;
+    
+}
+
+.blog3 a:hover{
+    color: yellow;
+    
+}
+
+
+.blogtext1 h1{
+    font-size: 30px;
+}
+
+.blogtext2 h2{
+        font-size: 30px;
+
+}
+.blogtext3 h3{
+        font-size: 30px;
+
+}
+
+.blogtext1 a{
+ color: white;
+}
+
+.blogtext2 a{
+ color: white;
+
+}
+.blogtext3 a{
+ color: white;
+
+}
+
+
+
+.ContactUs{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 40px;
+    padding-top: 20px;
+    color: beige;
+    position: relative;
+}
+
+.contactsimg{
+    width: 1100px;
+    height: 600px;
+    background-image: url(images/14.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+
+.form{
+      width: 1100px;
+    height: 500px;
+    
+}
+
+
+.formtext{
+    width: 400px;
+    height: 500px;
+    color: aliceblue;
+    text-align: justify-all;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 20px;
+    position: relative;
+    float: left;
+}
+
+
+.forminfo{
+    width: 700px;
+    height: 400px;
+    position: relative;
+    float: left;
+    padding: 0 40px;
+    padding-top: 20px;
+    box-sizing:  border-box;
+
+    top: 30px;
+}
+
+.form h{
+    color: aliceblue;
+    font-size: 25px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    
+}
+
+
+.forminfo .inputtext{
+    width: 300px;
+    height: 20px;
+    position: relative;
+    float: left;    border-radius: 10px; background-color: #313B45;
+    border-color: aliceblue;
+    top: 10px;     padding-top: 10px; 
+}
+
+.forminfo .inputemail{
+    width: 300px;
+    height: 30px;
+    position: relative;
+    float: left;    border-radius: 10px;
+    background-color: #313B45;
+    border-color: aliceblue;   top: 10px;   margin-left: 10px;
+}
+
+.forminfo .inputsubject{
+    width: 610px;
+    height: 30px;
+    position: relative;
+    float: left;    border-radius: 10px; background-color: #313B45;
+    border-color: aliceblue;   top: 10px;   margin-top: 30px;
+    
+}
+.forminfo .inputmessage{
+    width: 610px;
+    height: 100px;
+    position: relative;
+    float: left;    
+    border-radius: 10px; 
+    background-color: #313B45;
+    border-color: aliceblue;  
+    top: 10px;  
+    padding-top: 10px;margin-top: 30px;
+    
+}
+
+.forminfo .button{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    float: left;    border-radius: 10px; 
+    background-color: gray;
+    border-color: aliceblue;
+    font-size: 18px;
+    color: aliceblue;   
+    top: 10px;  
+    padding-top: 10px; margin-top: 30px;
+
+    
+}
+
+
+
+
+.gallery{
+    width: 1100px;
+    height: 1250px;
+    position: relative;
+}
+.gallery ul{
+    list-style: none;
+}
+.gallery li{
+    width: 350px;
+    height: 400px;
+    float: left;
+   background-color: #3C4853;
+    position: relative;
+    margin-left: 12.5px;
+    margin-top: 12.5px;
+}
+
+		.gallery img{
+		width:350px;
+		height: 250px;
+        float: left;
+}
+
+
+.gallery li p{
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    float: left;
+    top: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.gallery a{
+    color: aliceblue;
+    text-decoration: none
+}
+.gallery a:hover{
+    cursor: pointer;
+    color: yellow;
+    
+}
+
+.about{
+    width: 400px;
+    height: 100px;
+
+}		
+
+.aboutone{
+    width: 150px;
+    height: 40px;
+    background-color: yellow;
+    position: relative;
+    float: left;
+    top: 30px;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 5px;
+    
+}
+
+
+.aboutone:hover{
+    background-color: black;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+
+.abouttwo{
+    width: 150px;
+    height: 40px;
+    background-color: yellow;
+    position: relative;
+    float: left;
+    top: 30px;
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+
+.abouttwo:hover{
+    background-color: black;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+

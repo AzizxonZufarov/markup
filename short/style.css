@@ -1,0 +1,358 @@
+
+.wrap{
+	
+	width: 1100px;
+	height: 100px;
+	margin: auto;
+	position: relative;
+	top: 200px;
+	
+}
+
+
+body{
+	background: url('../img/background-image.png')
+	
+}
+
+.left{
+	
+	width: 750px;
+	height: 400px;
+	float: left;
+    
+    position: relative;
+    bottom: 100px;
+    margin-bottom: 500px;
+}
+
+.right{
+	
+	width: 200px;
+	height: 400px;
+	float: right;
+     position: relative;
+    bottom: 50px;
+}
+
+.leftone{
+	width: 375px;
+	height: 400px;
+	float: left;
+	
+}
+
+.lefttwo{
+	width: 375px;
+	height: 400px;
+	background:url('../img/home-image.jpg');
+	float: left;
+	background-size: cover;
+	
+}
+
+.topblock{
+	width: 200px;
+	height: 80px;
+	background: url('../img/logo.png');
+	margin: auto;
+	position: relative;
+	top:10px;
+	
+}
+
+
+.bottomblock{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	position: relative;
+	top:60px;
+    font-size: 20px;
+    font-family: fantasy;
+
+    
+}
+.button1{
+  
+    width: 200px;
+	height: 40px;
+	background: white;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+    color: coral;
+    top:5px;
+    text-decoration: none;
+	}
+.button1  a{
+    text-decoration: none;
+}
+
+.button2  a{
+    text-decoration: none;
+}
+.button3  a{
+    text-decoration: none;
+}
+.button4  a{
+    text-decoration: none;
+}
+
+.button2{
+	width: 200px;
+	height: 40px;
+	background: white;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+	top:15px;
+	}
+
+.button3{
+	width: 200px;
+	height: 40px;
+	background: white;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+	top:25px;
+	}
+
+.button4{
+	width: 200px;
+	height: 40px;
+	background: white;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+	top:35px;
+	}
+
+.container{
+	width: 375px;
+	height: 400px;
+	background: white;
+	float: left;
+	margin: auto;
+	text-align: center;
+	position: relative;
+    
+}
+
+.h1{
+	font-size: 30px;
+	font-family: sans-serif;
+	position: relative;
+	top: 50px;
+    column-rule-width: 3px solid red;
+	
+}
+.h2{
+	font-size: 16px;
+	text-align: center;
+    position: relative;
+	top: 75px;
+	
+}
+
+
+
+.container .active{
+    
+    width: 150px;
+    height: 50px;
+    margin:auto;
+    position: relative;
+    top: 150px;
+
+    
+}
+
+.container .active:hover{
+    color: coral;
+    border: 1px solid coral;
+}
+.span{
+	color: orange;
+	
+}
+
+
+.button1 a{
+    color: black;
+}
+
+.button2 a{
+    color: black;
+}
+
+
+.button3 a{
+    color: black;
+}
+
+.button4 a{
+    color: black;
+}
+
+
+.button1 active{
+    text-decoration-color: coral;
+}
+
+.AboutUsLeft{
+	
+	width: 800px;
+	height: 600px;
+	float: left;
+    position: relative;
+    bottom: 100px;
+    margin-bottom: 500px;
+	
+}
+
+.AboutUsTop{
+	
+	width: 800px;
+	height: 250px;
+    background-color: white;
+   	float: left;
+}
+
+.AboutUsTop h1{
+	
+	text-align: center;
+    position: relative;
+    text-align: center;
+
+  
+}
+
+.AboutUsTop h2{
+	
+	text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 16px;
+    font-family: serif;
+    text-align: center;
+}
+.AboutUsBottom{
+	
+	width: 800px;
+	height: 250px;
+    background-image: url('../img/about-image.jpg');
+    float: left;
+    background-size: cover;   
+      
+}
+
+.form{
+	width: 370px;
+	height: 400px;
+    background-color: white;
+	float: left;
+	
+}
+
+.textaddress{
+	width: 370px;
+	height: 400px;
+    background-color: white;
+	float: left;
+    font-size: 20px;
+
+
+}
+
+
+
+.form #name{
+	width: 300px;
+	height: 30px;
+	float: left;
+	position: relative;
+    top: 75px;
+    left: 10%;
+}
+
+.form #email{
+	width: 300px;
+	height: 30px;
+	float: left;
+	position: relative;
+      top: 100px;  left: 10%;
+}
+
+.form #message{
+	width: 300px;
+	height: 100px;
+	float: left;
+	position: relative;
+    top: 125px;  left: 10%;
+}
+#submit{
+  
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 135px;
+    top: 150px;
+ 
+}
+
+#submit:hover{
+    color: coral;
+    border: 1px solid coral;   
+    
+}
+.label{
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 36px;
+    position: relative;
+    left: 85px;
+    top: 25px;
+}
+.gall{
+	width: 750px;
+	height: 400px;
+    background-color: white;
+    padding: 50px;
+    display: inline-block;
+    
+    
+}
+
+#active {
+    color: orangered;
+}
+
+.verline {
+    width: 3px;
+    height: 100px;
+    background-color: black;
+    float: left;
+    position: relative;
+    left: 25px;
+    top: 60px;
+ 
+}
+
+
+.horizline {
+    width: 100px;
+    height: 3px;
+    background-color: black;
+
+    float: left;
+    position: relative;
+    left: 350px;
+    top: 40px;
+ 
+}

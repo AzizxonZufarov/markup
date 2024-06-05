@@ -1,0 +1,241 @@
+*{margin: 0;
+padding: 0;
+}
+.clear{
+	height: 50px;
+	clear: both;
+}
+
+.cont{
+	height: 100vh;
+	background: url('images/home-bg.jpg') center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.text{
+	height: 200px;
+	margin-top: 200px;
+	text-align: center;
+}
+
+.orange{
+	color: #ffaa00;
+	font-size: 20px;
+}
+
+.text h1{
+	font-size: 60px;
+}
+.text .btn{
+	font-size: 20px;
+	padding: 10px 50px;
+}
+.homegirl{
+	height: 70vh;
+	background: url('images/about-img-1.jpg') center;
+	background-size: cover;
+}
+
+.home{
+	height: 70vh;	
+	padding: 50px 100px;
+	font-size: 20px;
+}
+
+.aboutgirl{
+	height: 70vh;
+	background: url('images/about-img-2.jpg') center;
+	background-size: cover;
+}
+
+.about{
+	height: 70vh;	
+	padding: 50px 100px;
+	font-size: 20px;
+}
+
+.counter{
+	height: auto;
+	background: url('images/counter-bg.jpg') center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 20px;
+}
+
+.one, .two, .three, .four{
+	text-align: center;
+	color: white;
+}
+
+.numbers{
+	margin-top: 10%;
+}
+
+.blog{
+	text-align: center;
+}
+.blog1, .blog2, .blog3, .blog4, .blog5, .blog6{
+	height: 450px;
+}
+.blog1 .image{
+	height: 300px;
+	background: url('images/blog-img-1.jpg');
+	background-size: cover;
+	
+}
+.blog2 .image{
+	height: 300px;	
+	background-image: url('images/blog-img-2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.blog3 .image{
+	height: 300px;	
+	background-image: url('images/blog-img-3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.blog4 .image{
+	height: 300px;	
+	background-image: url('images/blog-img-4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.blog5 .image{
+	height: 300px;	
+	background-image: url('images/blog-img-5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.blog6 .image{
+	height: 300px;	
+	background-image: url('images/blog-img-6.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contact{
+	background: url('images/contact-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+
+.contact .row{
+	margin: auto;
+}
+
+.register{
+    background: url(images/contact-bg.jpg) center no-repeat;
+    opacity: 0.7;
+}
+
+.form{
+	margin-top: 100px;
+}
+
+.info{
+    margin-top: 100px;
+    opacity: 0.6;
+}
+
+.whitebg{
+    background: white;
+    opacity: 0.9;
+    height: 350px;
+    margin: auto;
+}
+
+.name{
+    width: 100%;
+	height: 40px;
+    border: 1px solid white;
+    background: transparent;
+    color: aliceblue;
+    padding: 0 0 0 10px;
+	margin-top: 10px;
+}
+
+.email{
+    width: 100%;
+	height: 40px;
+    border: 1px solid white;
+    background: transparent;
+    color: aliceblue;
+    padding: 0 0 0 10px;
+	margin-top: 10px;
+}
+
+.subject{
+    width: 100%;
+	height: 40px;
+    border: 1px solid white;
+    background: transparent;
+    color: aliceblue;
+    padding: 0 0 0 10px;
+	margin-top: 10px;
+}
+
+.message{
+    width: 100%;
+    height: 150px;
+	border: 1px solid white;
+    background: transparent;
+    color: aliceblue;
+    padding: 0 0 0 10px;
+	margin-top: 10px;
+}
+
+.send{
+    height: 50px;
+}
+
+.footer{
+    height: 120px;
+    margin-bottom: 25px;
+}
+.footer a:hover{
+    text-decoration: none;
+}
+
+.company a{  
+    list-style: none;
+    text-decoration: none;
+    display: block;
+}
+
+.support a{
+    list-style: none;
+    text-decoration: none;
+    display: block;
+}
+
+.network li{
+  list-style: none;
+  display: inline;
+}
+
+.network li a {
+  background: #3c3c3c;
+  border-radius: 100%;
+  margin-right: 5px;
+  margin-bottom: 5px; 
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 32px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+}
+
+.network li a:hover {
+  background: #ffa400;
+}
+
+.copyright{
+    height: 50px;
+    margin-left: 15px;
+}
+
+
+

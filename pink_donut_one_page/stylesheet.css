@@ -1,0 +1,749 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.topwrap{
+	width: 100%;
+	height: 700px;
+	background-color: #ffff00;
+}
+
+.banner{
+	width: 1200px;
+	height: 700px;
+	margin: auto;
+	background: url('images/slider.jpg') center;
+	background-size: cover;
+}
+
+
+.banner .navbar{
+	width: 1200px;
+	height: 60px;
+	position: relative;
+	top: 10px;
+}
+
+.navbar ul{
+	list-style: none;
+
+}
+
+.navbar ul li{
+		display: inline-block;
+		font-size: 20px;
+		padding: 20px 20px;
+		color: grey;
+}
+
+.navbar ul li:hover{
+	color:#aaaa7f;
+	cursor: pointer;}
+	
+	
+	
+.banner h1{
+	font-size: 90px;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	
+}	
+.banner .img{
+	width: 530px;
+	height: 20px;
+	background: url('images/separetor.png');
+	margin: auto;
+	position: relative;
+	top: 200px;
+	
+}	
+	
+.banner .btn{
+	width: 200px;
+	height: 70px;
+	background-color: #fad663;
+	border: 1px solid grey;
+	border-radius: 6px;
+	font-size: 30px;
+	position: relative;
+	top: 150px;
+	text-align: center;
+	margin: auto;
+}
+	
+	.banner .btn a{
+	text-decoration: none;
+	color: gray;
+	position: relative;
+	top: 15px;
+	
+}
+	
+	
+	.banner .btn a:hover{
+	cursor: pointer;
+	color: black;
+}
+	
+	
+	
+	.what{
+		width: 100%;
+		height: 700px;
+		position: relative;
+		margin-top: 100px;
+		margin-bottom: 100px
+		
+	}
+	
+	
+	.what .top{
+		width: 1200px;
+		height: 350px;
+		position: relative;
+		margin: auto;
+	}
+	
+	
+	.what .top .left{
+		width: 600px;
+		height: 350px;
+		position: relative;
+		float: left;
+		
+	}
+	
+		.what .top .right{
+		width: 600px;
+		height: 350px;
+		position: relative;
+		float: right;
+	}
+	
+	
+		.what .top .left .text{
+		width: 600px;
+		height: 350px;
+		text-align: center;
+		font-size: 120px;
+		position: relative;
+
+	}
+
+
+		.what .top .left .img{
+			width: 400px;
+			height: 12px;
+			background: url('images/separetor2.png') center;
+			background-size: cover;
+			position: absolute;
+			top: 50%;
+			left: 20%;
+			margin: auto;
+		}
+
+.what .top .right p{
+	font-size: 20px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-style: normal;
+	position: relative;
+	top: 20px;
+	line-height: 30px;
+}
+	
+	
+	
+.what .bottom{
+		width: 1200px;
+		height: 350px;
+		position: relative;
+		margin: auto;	
+}
+	
+.what .bottom .block1{
+		width: 33.3%;
+		height: 350px;
+		position: relative;
+		float: left;
+		box-sizing: border-box;
+		
+}	
+	
+	.what .bottom .block1 .img{
+		width: 130px;
+		height: 130px;
+		background: url('images/what1.png') center;
+		background-size: cover;
+		position: relative;
+		margin: auto;		
+	}
+	
+	.what .bottom .text{
+		text-align: center;
+		padding: 20px;
+		font-size: 20px;
+		box-sizing: border-box;
+	}
+	
+	.what .bottom h1{
+		font-size: 30px;
+	}
+	
+	.what .bottom .block2{
+		width: 33.3%;
+		height: 350px;
+		position: relative;
+		float: left;
+		box-sizing: border-box;
+		
+}	
+	
+	.what .bottom .block2 .img{
+		width: 130px;
+		height: 130px;
+		background: url('images/what2.png') center;
+		background-size: cover;
+		position: relative;
+		margin: auto;		
+	}
+	
+		.what .bottom .block3{
+		width: 33.3%;
+		height: 350px;
+		position: relative;
+		float: left;
+		box-sizing: border-box;
+		
+}	
+	
+	.what .bottom .block3 .img{
+		width: 130px;
+		height: 130px;
+		background: url('images/what3.png') center;
+		background-size: cover;
+		position: relative;
+		margin: auto;		
+	}
+	
+	
+	
+	.myWorks{
+		width: 100%;
+		height: 700px;
+	 position: relative;
+		margin-bottom: 150px;
+	}
+	
+	.myWorks .top{
+		width: 100%;
+		height: 200px;
+
+		position: relative;
+		float: right;
+	}
+	
+.myWorks .top h1{
+	font-size: 80px;
+	text-align: right;
+	position: relative;			padding-right: 100px;
+	}
+
+.myWorks .top .img{
+			width: 400px;
+			height: 12px;
+			background: url('images/separetor3.png') center;
+			background-size: cover;
+			position: relative;
+			left: 65%;
+
+}
+
+.myWorks  .gall{
+	width: 100%;
+	height: 350px;
+	position: relative;
+	float: left;
+}
+.myWorks  .book{
+	width: 25%;
+	height: 350px;
+	background: url(images/work1.jpg) center;
+	background-size: cover;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+}
+.myWorks  .amber{
+	width: 25%;
+	height: 350px;
+	background: url(images/work2.jpg) center;
+	background-size: cover;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+}
+
+.myWorks  .soap{
+
+	width: 25%;
+	height: 350px;
+	background: url(images/work3.jpg) center;
+	background-size: cover;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+}
+.myWorks  .list{
+
+	width: 25%;
+	height: 350px;
+	background: url(images/work4.jpg) center;
+	background-size: cover;
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+}
+
+
+.myWorks  .bottom{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	float: left;
+	top: 50px;
+}
+.myWorks .btn{
+	width: 200px;
+	height: 70px;
+	border: 1px solid grey;
+	border-radius: 6px;
+	font-size: 30px;
+	position: relative;
+	margin: auto;	background-color: #fad663;
+}
+	
+.myWorks .btn a{
+	text-decoration: none;
+	color: gray;
+	position: relative;
+ 	box-sizing: border-box;
+	top: 20px; 
+	left: 30px;
+	text-align: center;
+}
+	
+	
+ .myWorks .btn a:hover{
+	cursor: pointer;
+	color: black;
+}
+	
+
+.myWorks .separator{
+			width: 400px;
+			height: 12px;
+			background: url('images/separetor3.png') center;
+			background-size: cover;
+			margin: auto;
+	position: relative;
+	top: 40px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about{
+		width: 100%;
+		height: 1000px;
+		position: relative;
+		margin-top: 100px;
+	}
+	
+	
+
+	.about .top{
+		width: 1200px;
+		height: 250px;
+		position: relative;
+		margin: auto;
+	}
+	
+	
+	.about .top .left{
+		width: 600px;
+		height: 250px;
+		position: relative;
+		float: left;
+		
+	}
+	
+		.about .top .right{
+		width: 600px;
+		height: 250px;
+		position: relative;
+		float: right;
+	}
+	
+	
+		.about .top .left .text{
+		width: 600px;
+		height: 120px;
+		font-size: 100px;
+		position: relative;
+	margin: auto;
+			
+	}
+
+
+		.about .top .left .img{
+			width: 400px;
+			height: 12px;
+			background: url('images/separetor2.png') center;
+			background-size: cover;
+			position: relative;
+			float: left;
+			margin: auto;
+		}
+
+.about .top .right p{
+	font-size: 20px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-style: normal;
+	position: relative;
+	top: 20px;
+	line-height: 30px;
+}
+	
+	
+	
+.about .bottom{
+		width: 1200px;
+		height: 350px;
+	position: relative;
+	margin: auto;	
+}
+	
+.about .bottom .block1{
+		width: 33.3%;
+		height: 350px;
+		position: relative;
+		float: left;
+		box-sizing: border-box;
+		
+}	
+	
+	.about .bottom .img {
+		width: 300px;
+		height: 300px;
+		background: url('images/skil1.png') center;
+		background-size: cover;
+		position: relative;
+		margin: auto;		
+	}
+.about .bottom .text{
+		text-align: center;
+		padding: 20px;
+		font-size: 20px;
+		box-sizing: border-box;
+
+	}
+	
+	.about.bottom h1{
+		font-size: 30px;
+	}
+	
+	.about .bottom .block2{
+		width: 33.3%;
+		height: 350px;
+		position: relative;
+		float: left;
+		box-sizing: border-box;
+		
+}	
+	
+
+	
+		.about .bottom .block3{
+		width: 33.3%;
+		height: 350px;
+		position: relative;
+		float: left;
+		box-sizing: border-box;
+		
+}	
+	
+.myForm{
+	width: 100%;
+	height: 1000px;
+	background-color: #d2eae3;
+	position: relative;
+}
+
+	.myForm .top{
+		width: 100%;
+		height: 200px;
+
+		position: relative;
+		float: right;
+	}
+	
+.myForm .top h1{
+	font-size: 80px;
+	text-align: right;
+	position: relative;			padding-right: 100px;
+	}
+
+.myForm .top .img{
+			width: 550px;
+			height: 12px;
+			background: url('images/separetor3.png') center;
+			background-size: cover;
+			position: relative;
+			left: 50%;
+
+}
+
+.myForm .content{
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+	clear: both;
+	position: relative;
+}
+.myForm .form{
+	width: 50%;
+	height: 500px;
+			position: relative;
+	float: left
+}
+
+.myForm .info{
+	width: 50%;
+	height: 500px;
+		position: relative;
+	float: left
+}
+
+
+
+.myForm input{
+	width: 90%;
+	height: 40px;
+	display: block;
+	border-radius: 15px;
+	background-color: #fad663;
+	margin: 15px 0;
+	padding-left: 15px;
+	color: black;
+}
+.myForm textarea{
+	width: 90%;
+	height: 200px;
+	background-color: #fad663; border-radius: 15px;
+	margin: 15px 0;
+	padding-left: 15px;
+	color: white;
+}
+
+.myForm .btn{
+	width: 200px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 15px;
+	font-size: 30px;
+	position: relative;
+	margin: auto;	background-color: #fad663;
+}
+	
+.myForm .btn a{
+	text-decoration: none;
+	color: gray;
+	position: relative;
+ 	box-sizing: border-box;
+	top: 10px; 
+	text-align: center;
+}
+	
+	
+ .myForm .btn a:hover{
+	cursor: pointer;
+	color: black;
+}
+	
+
+.myForm .separator{
+			width: 400px;
+			height: 12px;
+			background: url('images/separetor3.png') center;
+			background-size: cover;
+			margin: auto;
+	position: relative;
+	top: 40px
+
+}
+
+.myForm .info .msg{
+	width: 500px;
+	height: 50px;
+
+	position: relative;	
+	float: left;
+	margin-top: 100px;
+	
+}
+.myForm .info .msg:hover{
+	cursor: pointer;
+	
+}
+.myForm .info li{
+	width: 35px;
+	height: 35px;
+	background: url('images/fb.png') center;
+	background-size: cover;
+	display: inline-block;
+	position: relative;
+	
+}
+
+
+.myForm h{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.myForm p{
+	font-size: 20px;
+}
+.myForm .address{
+	width: 300px;
+	height: auto;
+
+	clear: both;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.myForm .phone{
+	width: 300px;
+	height: auto;
+
+		position: relative;
+	float: left;
+	
+}
+
+.myForm .email{
+	width: 300px;
+	height: auto;
+	position: relative;
+	float: left;
+	
+}
+
+.myForm .clear{
+	width: 600px;
+	height: 100px;
+	position: relative;
+	float: left;
+	margin-top: 80px;
+}
+
+
+
+
+.footer{
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+	margin-top: 200px;
+}
+.footer .cpr{
+	width: 500px;
+	height: 60px;
+	position: relative;
+	float: left;
+}
+.footer .cpr p{
+	position: relative;
+	top: 15px;
+	
+}
+
+.footer .navbar{
+	width: 600px;
+	height: 60px;
+	position: relative;
+	float: right;
+	box-sizing: border-box;
+}
+
+.footer .navbar ul{
+	list-style: none;
+	position: relative;
+	float: right;
+}
+
+.footer .navbar ul li{
+		display: inline-block;
+		font-size: 14px;
+		color: grey;
+}
+
+.footer .navbar ul li:hover{
+	color: yellow;
+	cursor: pointer;
+}
+
+
